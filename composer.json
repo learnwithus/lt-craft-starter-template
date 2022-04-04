@@ -1,0 +1,38 @@
+{
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "craftcms/cms": "3.7.37",
+    "craftcms/redactor": "2.10.5",
+    "nystudio107/craft-vite": "1.0.24",
+    "performing/twig-components": "^0.4.0",
+    "vlucas/phpdotenv": "^5.4.0"
+  },
+  "require-dev": {
+    "nystudio107/craft-autocomplete": "^1.10",
+    "yiisoft/yii2-shell": "^2.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    },
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "8"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "@composer dump-autoload -o",
+      "@php craft setup/welcome"
+    ]
+  }
+}

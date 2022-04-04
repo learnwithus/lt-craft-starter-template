@@ -1,0 +1,15 @@
+{% extends "_layouts/base.twig" %}
+
+{% import "_macros/ui.twig" as ui %}
+
+{% block body %}
+
+    <div class="">
+        <div>
+            {{ ui.title("404 Not Found"|t, 'page') }}
+            <p class="text-xl">{{ "Page Not Found"|t }}</p>
+        </div>
+        {{ ui.buttonlink('Home Page', '/') }}
+    </div>
+
+{% endblock %}
