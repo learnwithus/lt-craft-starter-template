@@ -4,7 +4,7 @@ Simple craft cms starter template fully responsive, built with Petite Vue, ViteJ
 
 ## Start
 ```
-composer create-project vendor/name path --repository-url=
+composer create-project vendor/name --repository-url=https://github.com/learnwithus/lt-craft-starter-template my-new-website
 ```
 
 Complelete the setup or edit your manually update your `.env` file to match your configuration. To manually install craft run this command.
