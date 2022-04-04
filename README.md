@@ -7,10 +7,11 @@ Simple craft cms starter template fully responsive, built with Petite Vue, ViteJ
 git clone https://github.com/learnwithus/lt-craft-starter-template.git my-new-website
 ```
 
-Complelete the setup or edit your manually update your `.env` file to match your configuration. To manually install craft run this command.
+Complete the setup or edit your manually update your `.env` file to match your configuration. To manually install craft run this command.
 
 ```
-php craft install/craft 
+composer install
+php craft setup/welcome
 ```
 
 After installing craft install the vite plugin, then you can install dependencies and start vite dev server.
