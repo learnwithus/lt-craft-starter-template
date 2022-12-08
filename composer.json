@@ -3,6 +3,7 @@
     "craftcms/cms": "^4.2.7",
     "craftcms/redactor": "3.0.2",
     "nystudio107/craft-vite": "4.0.3",
+    "performing/twig-components": "^0.5.2",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

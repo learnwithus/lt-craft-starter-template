@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3ad828de926c374710a4cb6ed9eaa66",
+    "content-hash": "a7de7776f0439b48420fb3e162e701f1",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -2695,6 +2695,61 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "performing/twig-components",
+            "version": "0.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giorgiopogliani/twig-components.git",
+                "reference": "be2dfdbc9cc527f10792348419ab39a6af48b12c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giorgiopogliani/twig-components/zipball/be2dfdbc9cc527f10792348419ab39a6af48b12c",
+                "reference": "be2dfdbc9cc527f10792348419ab39a6af48b12c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0",
+                "twig/twig": "^2.12.5 || ^3.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "pestphp/pest": "^1.0",
+                "phpunit/phpunit": "^9.3",
+                "symfony/var-dumper": "^5.2",
+                "vimeo/psalm": "^3.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Performing\\TwigComponents\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giorgio Pogliani",
+                    "email": "giorgiopogliani94@gmail.com",
+                    "homepage": "https://performingdigital.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Twig components extension",
+            "homepage": "https://github.com/giorgiopogliani/twig-components",
+            "keywords": [
+                "digital",
+                "twig-components"
+            ],
+            "support": {
+                "issues": "https://github.com/giorgiopogliani/twig-components/issues",
+                "source": "https://github.com/giorgiopogliani/twig-components/tree/0.5.2"
+            },
+            "time": "2022-06-16T20:09:01+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
