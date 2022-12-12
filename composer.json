@@ -2,6 +2,7 @@
   "name": "vch/craft-starter-template",
   "description": "Learning Technologies Craft CMS Starter Template",
   "version": "1.0.0",
+  "license": "BSD-3-Clause",
   "require": {
     "craftcms/cms": "^4.2.7",
     "craftcms/redactor": "3.0.2",
