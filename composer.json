@@ -1,4 +1,6 @@
 {
+  "name": "vch/craft-starter-template",
+  "description": "Learning Technologies Craft CMS Starter Template",
   "require": {
     "craftcms/cms": "^4.2.7",
     "craftcms/redactor": "3.0.2",
