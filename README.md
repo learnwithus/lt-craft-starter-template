@@ -24,12 +24,7 @@ npm run dev
 If your environment is dev, the vite plugin will try to access the dev server, in production the vite plugin will try to access compiled assets. More info at [https://nystudio107.com/docs/vite/](https://nystudio107.com/docs/vite)
 
 ## Macros
-- Forms
 - Image
-- Menu
-- Image
-- Pagination
-- Title
 
 ## Components with [Twig Components](https://github.com/giorgiopogliani/twig-components)
 - button
