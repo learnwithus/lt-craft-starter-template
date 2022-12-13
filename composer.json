@@ -35,7 +35,7 @@
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\"",
       "@composer dump-autoload -o",
       "@php craft setup/welcome",
-      "# Welcome to the <fg=white;bg=cyan> VCH </> / <fg=black;bg=yellow> Learning Technologies </> Craft CMS Temaplate",
+      "# Welcome to the <fg=white;bg=blue> VCH </> / <fg=black;bg=yellow> Learning Technologies </> Craft CMS Temaplate",
       "#",
       "# To install the required node modules, please run:",
       "# <info>npm install</info>"
