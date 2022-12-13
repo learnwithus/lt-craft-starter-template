@@ -11,6 +11,7 @@ The template will then automatically run the following commands:
 - composer install
 - php craft setup/welcome
 - php craft plugin/install vite
+
 **If you cancel out of this, you may need to rerun these commands**
 
 After installing craft install the vite plugin, then you can install dependencies and start vite dev server.
