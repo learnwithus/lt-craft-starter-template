@@ -2,17 +2,14 @@
 
 Simple craft cms starter template fully responsive, built with Petite Vue, ViteJS and Twig Components (like Laravel Blade Components but for twig).
 
-## Start
+## How to Use
 ```
-git clone https://github.com/learnwithus/lt-craft-starter-template.git my-new-website
+composer create-project vch/craft-starter-template name-of-site
 ```
 
-Complete the setup or edit your manually update your `.env` file to match your configuration. To manually install craft run this command.
-
-```
-composer install
-php craft setup/welcome
-```
+The template will then automatically run the following commands:
+- composer install
+- php craft setup/welcome
 
 After installing craft install the vite plugin, then you can install dependencies and start vite dev server.
 ```
@@ -56,4 +53,4 @@ performing/twig-components
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT)
