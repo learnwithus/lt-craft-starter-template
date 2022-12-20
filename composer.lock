@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fd6afd11274479e0760c2ded5a505b6",
+    "content-hash": "817b87bf6fb36976d23fbccf1c776d45",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1965,7 +1965,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.43.0",
+            "version": "v9.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -2020,7 +2020,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.43.0",
+            "version": "v9.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -2066,7 +2066,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.43.0",
+            "version": "v9.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2114,7 +2114,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.43.0",
+            "version": "v9.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -2346,23 +2346,23 @@
         },
         {
             "name": "moneyphp/money",
-            "version": "v4.0.5",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moneyphp/money.git",
-                "reference": "cee58435ff82a5de252c516e6a31beb674898985"
+                "reference": "c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moneyphp/money/zipball/cee58435ff82a5de252c516e6a31beb674898985",
-                "reference": "cee58435ff82a5de252c516e6a31beb674898985",
+                "url": "https://api.github.com/repos/moneyphp/money/zipball/c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d",
+                "reference": "c8eeeb1f7b7e6ca95490b94a301dc9cb8cb76c2d",
                 "shasum": ""
             },
             "require": {
                 "ext-bcmath": "*",
                 "ext-filter": "*",
                 "ext-json": "*",
-                "php": "~8.0.0 || ~8.1.0"
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
             },
             "require-dev": {
                 "cache/taggable-cache": "^1.1.0",
@@ -2372,15 +2372,16 @@
                 "ext-intl": "*",
                 "florianv/exchanger": "^2.6.3",
                 "florianv/swap": "^4.3.0",
+                "moneyphp/crypto-currencies": "^1.0.0",
                 "moneyphp/iso-currencies": "^3.2.1",
                 "php-http/message": "^1.11.0",
                 "php-http/mock-client": "^1.4.1",
                 "phpbench/phpbench": "^1.2.5",
-                "phpspec/phpspec": "^7.2",
+                "phpspec/phpspec": "^7.3",
                 "phpunit/phpunit": "^9.5.4",
-                "psalm/plugin-phpunit": "^0.15.1",
+                "psalm/plugin-phpunit": "^0.18.4",
                 "psr/cache": "^1.0.1",
-                "vimeo/psalm": "~4.7.0 || ^4.8.2"
+                "vimeo/psalm": "~5.3.0"
             },
             "suggest": {
                 "ext-gmp": "Calculate without integer limits",
@@ -2428,9 +2429,9 @@
             ],
             "support": {
                 "issues": "https://github.com/moneyphp/money/issues",
-                "source": "https://github.com/moneyphp/money/tree/v4.0.5"
+                "source": "https://github.com/moneyphp/money/tree/v4.1.0"
             },
-            "time": "2022-08-11T09:12:20+00:00"
+            "time": "2022-12-19T20:35:32+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6191,16 +6192,16 @@
         },
         {
             "name": "voku/portable-utf8",
-            "version": "6.0.10",
+            "version": "6.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-utf8.git",
-                "reference": "35b21539c309cbc4697266591f3a4ae9ce4e029c"
+                "reference": "a768656da0b8e42d236b325a4ebfc56ad6d0e111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/35b21539c309cbc4697266591f3a4ae9ce4e029c",
-                "reference": "35b21539c309cbc4697266591f3a4ae9ce4e029c",
+                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/a768656da0b8e42d236b325a4ebfc56ad6d0e111",
+                "reference": "a768656da0b8e42d236b325a4ebfc56ad6d0e111",
                 "shasum": ""
             },
             "require": {
@@ -6266,7 +6267,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/portable-utf8/issues",
-                "source": "https://github.com/voku/portable-utf8/tree/6.0.10"
+                "source": "https://github.com/voku/portable-utf8/tree/6.0.11"
             },
             "funding": [
                 {
@@ -6290,7 +6291,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-05T23:42:43+00:00"
+            "time": "2022-12-16T00:56:34+00:00"
         },
         {
             "name": "voku/stop-words",
@@ -7169,16 +7170,16 @@
         },
         {
             "name": "nystudio107/craft-autocomplete",
-            "version": "1.10.1",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-autocomplete.git",
-                "reference": "df8d2707313ff505db433bc7ae92bc71d4c2d862"
+                "reference": "157f6a7a10d36888f70772f9fdfc97e13a7a439c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-autocomplete/zipball/df8d2707313ff505db433bc7ae92bc71d4c2d862",
-                "reference": "df8d2707313ff505db433bc7ae92bc71d4c2d862",
+                "url": "https://api.github.com/repos/nystudio107/craft-autocomplete/zipball/157f6a7a10d36888f70772f9fdfc97e13a7a439c",
+                "reference": "157f6a7a10d36888f70772f9fdfc97e13a7a439c",
                 "shasum": ""
             },
             "require": {
@@ -7229,7 +7230,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-23T20:23:30+00:00"
+            "time": "2022-12-19T23:52:34+00:00"
         },
         {
             "name": "psy/psysh",
