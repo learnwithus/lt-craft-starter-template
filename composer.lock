@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "817b87bf6fb36976d23fbccf1c776d45",
+    "content-hash": "752c271c3f7ae3da0324bbd5ec87c249",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1965,7 +1965,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.45.0",
+            "version": "v9.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -2020,7 +2020,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.45.0",
+            "version": "v9.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -2066,7 +2066,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.45.0",
+            "version": "v9.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2114,7 +2114,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.45.0",
+            "version": "v9.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
